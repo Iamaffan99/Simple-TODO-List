@@ -1,2 +1,22 @@
 # Simple-TODO-List
 ✨ Stay organized. Stay productive. A beautifully designed To-Do List app that makes managing your daily tasks simple, efficient, and enjoyable.  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Todo List</h1>
+<p>Welcome to this todo list. Double click to edit the todo</p>
+    <!-- Input and button to add new todos  -->
+     <input type="text" id="todo-input" placeholder="Enter a todo and press Add or Enter">
+
+     <button id="add-btn">Add</button>
+     <ul id="todo-list"></ul>
+     <script src="script.js"></script>
+</body>
+</html>
